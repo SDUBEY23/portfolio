@@ -97,26 +97,26 @@ hr {
 
 /** header **/
 
-.image {
+.hero {
     padding: 2rem;
     padding-top: 5rem;
 
 }
 
-.image .image-img {
+.hero .hero-img {
     max-width: 80%;
     width: 350px;
     display: block;
     margin: auto;
 }
 
-.image .image-heading {
+.hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
 
-.image .image-heading .heading-inverted {
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
