@@ -4,6 +4,7 @@
     --primary-color: #7C3AED;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
+    --light-color: #f4f4f4;
 }
 
 body {
@@ -32,6 +33,25 @@ ul{
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+    color: #333;
+}
+
+.p-3{
+    padding: 2rem;
+}
+
+.bg-light, 
+.btn-light{
+    background-color: var(--light-color);
+    color: #333;
 }
 
 /** links **/
@@ -92,6 +112,10 @@ ul{
 
 .navigation .link {
     color: white;
+}
+
+.navigation .link:hover{
+    border-bottom: 2px solid #fff;
 }
 
 .navigation .link-active {
@@ -186,6 +210,9 @@ ul{
 .py-5{
     padding: 4rem 0;
 }
+.my-4{
+    margin: 3rem 0;
+}
 
 /** projects **/
 .showcase-list {
@@ -201,4 +228,25 @@ ul{
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
+}
+
+.docs-main h3{
+    margin:20px 0;
+}
+
+.docs-main .grid{
+    grid-template-columns: 1fr;
+    /* align-items: flex-start; */
+    place-items: center;
+} 
+
+ .docs-main nav li{
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.docs-main a:hover{
+    font-weight: bold;
 }
